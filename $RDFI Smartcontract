@@ -1,7 +1,3 @@
-/**
- *Submitted for verification at Etherscan.io on 2020-09-09
-*/
-
 pragma solidity ^0.6.0;
 
 abstract contract Context {
@@ -257,3 +253,4 @@ contract ERC20 is Context, IERC20 {
     }
 
     function _beforeTokenTransfer(address from, address to, uint256 amount) internal virtual { }
+}
